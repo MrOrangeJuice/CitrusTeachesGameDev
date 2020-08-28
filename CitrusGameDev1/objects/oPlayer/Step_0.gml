@@ -1,9 +1,10 @@
 /// @description Calculate Physics
-
-key_left = keyboard_check(ord("A"));
-key_right = keyboard_check(ord("D"));
-key_jump = keyboard_check(vk_space);
-key_run = keyboard_check(vk_lshift);
+if(canmove){
+	key_left = keyboard_check(ord("A"));
+	key_right = keyboard_check(ord("D"));
+	key_jump = keyboard_check(vk_space);
+	key_run = keyboard_check(vk_lshift);
+}
 
 // Calculate Movement
 if(airborne)
@@ -47,8 +48,14 @@ vsp = vsp + grv;
 // Jumping
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
-	vsp = -16;
-	audio_play_sound(pacman_chomp,5,false);
+	vsp = -20;
+	audio_play_sound(push,5,false);
+}
+
+// Variable jump height
+if vsp < 0 && (!(key_jump)) //if you're moving upwards in the air but not holding down jump
+{
+	vsp *= 0.85; //essentially, divide your vertical speed
 }
 
 // Horizontal Collision
@@ -111,3 +118,16 @@ else
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
+
+if(dead) {
+	sprite_index = sPlayerDeath;
+	oGun.visible = false;
+	deathtime--;
+	if(deathtime == 0){
+		game_restart();
+	}
+}
+
+if(keyboard_check_pressed(ord("R"))) {
+	game_restart();
+}
