@@ -2,3 +2,5 @@
 // You can write your code in this editor
 firingdelay = 0;
 recoil = 0;
+firerate = 20;
+bullets = 1;

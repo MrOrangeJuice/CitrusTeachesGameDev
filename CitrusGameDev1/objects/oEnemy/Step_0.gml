@@ -3,6 +3,15 @@
 hsp = xdirection * walksp;
 
 vsp = vsp + grv;
+jumptime--;
+
+// Jumping
+if (place_meeting(x,y+1,oWall)) && (jumptime <= 0)
+{
+	vsp = -20;
+	jumptime = 300;
+	//audio_play_sound(push,5,false);
+}
 
 // Horizontal Collision
 if (place_meeting(x+hsp,y,oWall))

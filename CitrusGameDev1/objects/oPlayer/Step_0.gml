@@ -49,7 +49,7 @@ vsp = vsp + grv;
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
 	vsp = -20;
-	audio_play_sound(push,5,false);
+	audio_play_sound(marioJump,5,false);
 }
 
 // Variable jump height
