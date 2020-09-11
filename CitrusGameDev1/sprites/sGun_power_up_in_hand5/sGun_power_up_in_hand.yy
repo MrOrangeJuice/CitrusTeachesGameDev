@@ -9,13 +9,13 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 53,
-  "bbox_top": 1,
-  "bbox_bottom": 93,
+  "bbox_top": 0,
+  "bbox_bottom": 61,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 64,
-  "height": 128,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"34568690-00f9-493f-8157-86f629f55d46","path":"sprites/sGun_power_up_in_hand3/sGun_power_up_in_hand3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"34568690-00f9-493f-8157-86f629f55d46","path":"sprites/sGun_power_up_in_hand3/sGun_power_up_in_hand3.yy",},"LayerId":{"name":"9d5cc9a2-120e-42ac-9758-30ed87fd5e17","path":"sprites/sGun_power_up_in_hand3/sGun_power_up_in_hand3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGun_power_up_in_hand3","path":"sprites/sGun_power_up_in_hand3/sGun_power_up_in_hand3.yy",},"resourceVersion":"1.0","name":"34568690-00f9-493f-8157-86f629f55d46","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"34568690-00f9-493f-8157-86f629f55d46","path":"sprites/sGun_power_up_in_hand/sGun_power_up_in_hand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"34568690-00f9-493f-8157-86f629f55d46","path":"sprites/sGun_power_up_in_hand/sGun_power_up_in_hand.yy",},"LayerId":{"name":"9d5cc9a2-120e-42ac-9758-30ed87fd5e17","path":"sprites/sGun_power_up_in_hand/sGun_power_up_in_hand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sGun_power_up_in_hand","path":"sprites/sGun_power_up_in_hand/sGun_power_up_in_hand.yy",},"resourceVersion":"1.0","name":"34568690-00f9-493f-8157-86f629f55d46","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sGun_power_up_in_hand3","path":"sprites/sGun_power_up_in_hand3/sGun_power_up_in_hand3.yy",},
+    "spriteId": {"name":"sGun_power_up_in_hand","path":"sprites/sGun_power_up_in_hand/sGun_power_up_in_hand.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c61813ec-2c14-48e6-83eb-96e9804f2b84","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34568690-00f9-493f-8157-86f629f55d46","path":"sprites/sGun_power_up_in_hand3/sGun_power_up_in_hand3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e59ea598-9389-45a2-b52f-8fc8def91d67","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34568690-00f9-493f-8157-86f629f55d46","path":"sprites/sGun_power_up_in_hand/sGun_power_up_in_hand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sGun_power_up_in_hand3","path":"sprites/sGun_power_up_in_hand3/sGun_power_up_in_hand3.yy",},
+    "parent": {"name":"sGun_power_up_in_hand","path":"sprites/sGun_power_up_in_hand/sGun_power_up_in_hand.yy",},
     "resourceVersion": "1.3",
-    "name": "sGun_power_up_in_hand3",
+    "name": "sGun_power_up_in_hand",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -72,7 +72,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sGun_power_up_in_hand3",
+  "name": "sGun_power_up_in_hand",
   "tags": [],
   "resourceType": "GMSprite",
 }

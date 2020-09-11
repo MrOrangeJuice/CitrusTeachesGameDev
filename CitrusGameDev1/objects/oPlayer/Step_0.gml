@@ -124,7 +124,7 @@ if(dead) {
 	oGun.visible = false;
 	deathtime--;
 	if(deathtime == 0){
-		game_restart();
+		room_goto_next();
 	}
 }
 

@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"34568690-00f9-493f-8157-86f629f55d46","path":"sprites/sGun_power_up_in_hand3/sGun_power_up_in_hand3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"34568690-00f9-493f-8157-86f629f55d46","path":"sprites/sGun_power_up_in_hand3/sGun_power_up_in_hand3.yy",},"LayerId":{"name":"9d5cc9a2-120e-42ac-9758-30ed87fd5e17","path":"sprites/sGun_power_up_in_hand3/sGun_power_up_in_hand3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGun_power_up_in_hand3","path":"sprites/sGun_power_up_in_hand3/sGun_power_up_in_hand3.yy",},"resourceVersion":"1.0","name":"34568690-00f9-493f-8157-86f629f55d46","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"34568690-00f9-493f-8157-86f629f55d46","path":"sprites/sGun_power_up_in_hand4/sGun_power_up_in_hand4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"34568690-00f9-493f-8157-86f629f55d46","path":"sprites/sGun_power_up_in_hand4/sGun_power_up_in_hand4.yy",},"LayerId":{"name":"9d5cc9a2-120e-42ac-9758-30ed87fd5e17","path":"sprites/sGun_power_up_in_hand4/sGun_power_up_in_hand4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sGun_power_up_in_hand4","path":"sprites/sGun_power_up_in_hand4/sGun_power_up_in_hand4.yy",},"resourceVersion":"1.0","name":"34568690-00f9-493f-8157-86f629f55d46","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sGun_power_up_in_hand3","path":"sprites/sGun_power_up_in_hand3/sGun_power_up_in_hand3.yy",},
+    "spriteId": {"name":"sGun_power_up_in_hand4","path":"sprites/sGun_power_up_in_hand4/sGun_power_up_in_hand4.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c61813ec-2c14-48e6-83eb-96e9804f2b84","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34568690-00f9-493f-8157-86f629f55d46","path":"sprites/sGun_power_up_in_hand3/sGun_power_up_in_hand3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4004a3ed-4ceb-42c2-b15d-fe2a1d6354b1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34568690-00f9-493f-8157-86f629f55d46","path":"sprites/sGun_power_up_in_hand4/sGun_power_up_in_hand4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sGun_power_up_in_hand3","path":"sprites/sGun_power_up_in_hand3/sGun_power_up_in_hand3.yy",},
+    "parent": {"name":"sGun_power_up_in_hand4","path":"sprites/sGun_power_up_in_hand4/sGun_power_up_in_hand4.yy",},
     "resourceVersion": "1.3",
-    "name": "sGun_power_up_in_hand3",
+    "name": "sGun_power_up_in_hand4",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -72,7 +72,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sGun_power_up_in_hand3",
+  "name": "sGun_power_up_in_hand4",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -3,7 +3,15 @@
 x = oPlayer.x;
 y = oPlayer.y;
 
-if(bullets > 2)
+if(bullets > 4)
+{
+	sprite_index = sGun_power_up_in_hand5;
+}
+else if(bullets > 3)
+{
+	sprite_index = sGun_power_up_in_hand4;
+}
+else if(bullets > 2)
 {
 	sprite_index = sGun_power_up_in_hand3;
 }
